@@ -1,0 +1,7 @@
+.content-clear-fix{
+    color: #333333;
+    font-size: 14px;
+}
+.content-clear-fix .collection_banner img{
+    max-width: 100%;
+}

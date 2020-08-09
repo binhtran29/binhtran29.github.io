@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+    <title>Thông tin sản phẩm</title>
+    <!-- fonawesome  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font-family  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- my css -->
+    <link rel="stylesheet" href="CSS/chi-tiet-sp.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/reponsive.css">
+
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/jquery_oc_product.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="top">
+            <div class="top_bar1 hidden-xs hidden-sm hidden-md">
+                <div class="top_c container">
+                    <div class="row">
+                        <div class="col1 col-lg-4 col-md-4 col-4">
+                            <strong>
+                                <a href="#abc" class="phone">19001267</a>
+                            </strong>
+                            <strong>
+                                <a href="lien-he.html" class="mail">support@egany.com</a>
+                            </strong>
+                        </div>
+                        <div class="col2  col-lg-4 col-md-3 hidden-sm hidden-xs">
+                            <input type="text" id="search" placeholder="Bạn muốn tìm gì...">
+                        </div>
+                        <div class="col3 col-lg-4 col-md-5 col-8">
+                            <a href="gioi-thieu.html" class="gt">Giới thiệu</a>
+                            <a href="lien-he.html" class="lh">Liên hệ</a>
+                            <a href="he-thong-cua-hang.html" class="ht">Hệ thống cửa hàng</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end top_c -->
+            </div>
+            <!-- end top_bar1 -->
+            <div class="top_bar2">
+                <div class="top_bar2_2" id="sticky_top">
+                    <div class="top_d row">
+                        <div class="logo col-sm-2">
+                            <a href="index.html">
+                                <img src="https://theme.hstatic.net/1000074340/1000538604/14/logo.png?v=30" alt="">
+                            </a>
+                        </div>
+                        <div class="menu col-sm-8">
+                            <ul class="main">
+                                <li class="l1 l2">
+                                    <a href="product.html" class="sp"><b>Sản phẩm</b></a>
+                                    <ul class="l1 m2">
+                                        <li><a href="product.html">Lọc sản phẩm</a></li>
+                                        <li><a href="product.html">Sản phẩm theo màu</a></li>
+                                        <li><a href="product.html">Sản phẩm có thông số kỹ thuật</a></li>
+                                        <li><a href="product.html">Sản phẩm thương hiệu</a></li>
+                                        <li><a href="tap-chi.html">Tạp chí</a></li>
+                                        <li><a href="he-thong-cua-hang.html">Hệ thống cửa hàng</a></li>
+                                    </ul>
+                                </li>
+                                <li class="l1 l2">
+                                    <a href="tui-nu-xach-tay.html" class="ts"><b>Túi xách tay</b></a>
+                                    <ul class="l1 m2">
+                                        <li><a href="product.html">Cỡ lớn</a></li>
+                                        <li><a href="product.html">Cỡ trung</a></li>
+                                        <li><a href="product.html">Cỡ nhỏ</a></li>
+                                        <li><a href="product.html">Ví</a></li>
+                                        <li><a href="product.html">Cluth</a></li>
+                                    </ul>
+                                </li>
+                                <li class="l1"><a href="tui-xach-cam-tay.html"><b>Túi cầm tay</b></a></li>
+                                <li class="l1"><a href="empty.html"><b>Túi kamicy</b></a></li>
+                                <li class="l1"><a href="tap-chi.html"><b>Tạp chí</b></a></li>
+                                <li class="l1"><a href="he-thong-cua-hang.html"><b>Hệ thống cửa hàng</b></a></li>
+                            </ul>
+                        </div>
+                        <div class="user col-sm-2">
+                            <div class="man">
+                                <div class="fa fa-user"></div>
+                                <ul class="user-login">
+                                    <li><a href="login.html">Đăng nhập</a></li>
+                                    <li><a href="signin.html">Đăng kí</a></li>
+                                </ul>
+                            </div>
+                            <div class="store">
+                                <a href="gio-hang.html">
+                                    <div class="fa fa-shopping-cart"></div>
+                                    <span class="circle" style="top:20px;right: 20px;">6</span>
+                                </a>
+                                <div class="user-store">
+                                    <div class="store-title" style="padding: 12px 15px; border-bottom: 1px solid #eee;">
+                                        <h4 style="font-size: 15px; font-weight: bold;">GIỎ HÀNG</h4>
+                                    </div>
+                                    <div class="cart">
+                                        <div class="cart-item">
+                                            <input type="hidden" class="item_id" value="1015082233">
+                                            <input type="hidden" class="item_qty" value="2">
+                                            <input type="hidden" class="item_unit_price_not_formated" value="70000000">
+                                            <div class="cart-left">
+                                                <a href="chi-tiet-sp.html"><img src="images/small.jpg"
+                                                        alt="Wristlet cầm tay khóa gài chữ O Gesunry hồng phấn"></a>
+                                            </div>
+                                            <div class="cart-right">
+                                                <a href="chi-tiet-sp.html">Wristlet cầm tay khóa gài chữ O Gesunry hồng
+                                                    phấn</a>
+                                                <span class="cart-price">700,000đ</span>
+                                                <span class="cart-quantity">x2</span>
+                                                <a href="#abc" class="cancel"
+                                                    style="font-size: 18px; margin-left: 80px;">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="clear-fix"
+                                        style=" border-top: 1px solid #eee; line-height: normal; padding: 10px;">
+                                        <span style="font-size: 20px; color: #ff551f;">1,400,000đ</span>
+                                        <button onclick="" class="btn-buy"
+                                            style="width: 118px; height: 32px; line-height: 32px; border: none;background: #ff551f; color: white; float: right; border-radius: 4px;">Xem
+                                            giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="top_mb">
+                        <div class="logo" style="text-align: center;">
+                            <a href="index.html">
+                                <img src="https://theme.hstatic.net/1000074340/1000538604/14/logo.png?v=30" alt="">
+                            </a>
+                        </div>
+                        <div class="overplay"></div>
+                        <div id="menu-mb">
+                            <div id="menu-toggle" onclick="LtoR()">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </div>
+
+                            <form action="search">
+                                <input type="hidden" name="type" value="product">
+                                <input type="text" name="q" class="form_search" placeholder="Bạn muốn tìm gì...">
+                                <button>
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </form>
+                            <ul class="menu-tree-mb">
+                                <li class="tree-item-mb has-child"><a href="product.html">Sản phẩm </a><span>+</span>
+                                    <ul class="menu-tree-mb" style="padding-left: 7px; margin: 0;">
+                                        <li class="tree-item-mb"><a href="">Lọc sản phẩm</a></li>
+                                        <li class="tree-item-mb"><a href="product.html">Sản phẩm theo màu</a></li>
+                                        <li class="tree-item-mb"><a href="product.html">Sp có thông số kỹ thuật</a></li>
+                                        <li class="tree-item-mb"><a href="product.html">Sản phẩm thương hiệu</a></li>
+                                        <li class="tree-item-mb"><a href="product.html">Tạp chí</a></li>
+                                        <li class="tree-item-mb"><a href="product.html">Hệ thống cửa hàng</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="tree-item-mb has-child"><a href="tui-nu-xach-tay.html">Túi xách tay
+                                    </a><span>+</span>
+                                    <ul class="menu-tree-mb" style="padding-left: 7px; margin: 0;">
+                                        <li class="tree-item-mb"><a href="tui-nu-xach-tay.html">Lớn </a></li>
+                                        <li class="tree-item-mb"><a href="tui-nu-xach-tay.html">Trung</a></li>
+                                        <li class="tree-item-mb"><a href="tui-nu-xach-tay.html">Nhỏ</a></li>
+                                        <li class="tree-item-mb"><a href="tui-nu-xach-tay.html">Ví</a></li>
+                                        <li class="tree-item-mb"><a href="tui-nu-xach-tay.html">Cluth</a></li>
+                                    </ul>
+                                </li>
+                                <li class="tree-item-mb"><a href="tui-xach-cam-tay.html">Túi cầm tay</a></li>
+                                <li class="tree-item-mb"><a href="empty.html">Túi kamicy</a></li>
+                                <li class="tree-item-mb"><a href="tap-chi.html">Tạp chí</a></li>
+                                <li class="tree-item-mb"><a href="he-thong-cua-hang.html">Hệ thống cửa hàng</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="top-cart-mb">
+                            <div class="top-cart-mb-c">
+                                <div class="top-cart">
+                                    <a href="gio-hang.html">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        <span class="circle">6</span>
+                                    </a>
+                                </div>
+                                <div class="btn-cart">
+                                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="top-link">
+                            <ul class="">
+                                <li class="top-link_contact">
+                                    <strong>Số điện thoại: <a href="tel:19001267">19001267</a></strong>
+                                </li>
+                                <li class="top-link_contact">
+                                    <strong>Email: <a href="mailto:support@egany.com">support@egany.com</a></strong>
+                                </li>
+                                <li><a href="/pages/about-us">Giới thiệu</a></li>
+                                <li><a href="/pages/lien-he">Liên hệ</a></li>
+                                <li><a href="/pages/he-thong-cua-hang">Hệ thống cửa hàng</a></li>
+                                <li><a href="/account/login">Đăng nhập / Đăng ký</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- end top_bar2 -->
+    </div>
+    <!-- end header -->
+    <div class="container">
+        <div class="content">
+            <div style="padding: 14px 0px;font-size: 13px;">
+                <a style=" text-decoration: none; color: #333 ;" href="index.html">Trang chủ</a> / <a
+                    style=" text-decoration: none; color: #333 ;" href="tui-xach-cam-tay.html">Túi xách</a> / Tên sản
+                phẩm
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="bag-container">
+                <div class="bag-product-detail">
+                    <div class="row">
+                        <div class="col-lg-5 col-12 first-col">
+                            <img id="img-main" src="images/product_img1.webp" alt="">
+                            <div class="sales">-30%</div>
+                            <div class="slide_trade">
+                                <div class="owl-carousel sd" id="owl-xx">
+                                    <div class="item_slide">
+                                        <a href="#1">
+                                            <img class="img-owl" src="images/product_img1.webp" alt=""></a>
+                                    </div>
+                                    <div class="item_slide">
+                                        <a href="#2">
+                                            <img class="img-owl"
+                                                src="https://product.hstatic.net/1000074340/product/hbousmet_3c0e771acc3449afb845e9943a495d2b_large.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="item_slide">
+                                        <a href="#3">
+                                            <img class="img-owl"
+                                                src="https://product.hstatic.net/1000074340/product/zhqjxu9j_0c6db7fec11249c7b05df34dcbd0b279_large.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="item_slide">
+                                        <a href="#4">
+                                            <img class="img-owl"
+                                                src="https://product.hstatic.net/1000074340/product/xzipegfc_9a895fc8f9d04ba5bf204d70a607c632_large.jpg"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="item_slide">
+                                        <a href="#5">
+                                            <img class="img-owl"
+                                                src="https://product.hstatic.net/1000074340/product/nlwgytju_0ab74a2366e0469283811ca5c8bdae21_large.jpg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 second-col">
+                            <h1 class="bag-product-title">Túi bucket style Bohemian K&amp;K</h1>
+                            <p class="bag-product-id">SKU: 5346786888</p>
+                            <div class="bag-product-price">
+                                <ins class="price-ins">700,000₫</ins>
+                                <del class="price-del"><strike>1,000,000₫</strike></del>
+                            </div>
+                            <div class="bag-product-qty">
+                                <label class="qty-title" for="">Số lượng: </label>
+                                <div class="qty-count">
+                                    <input class="btn-div" type="button" onclick="deins('q')" value="-">
+                                    <input class="btn-plus" type="button" onclick="ins('q')" value="+">
+                                    <input type="text" name="quantity" id="q" value="1">
+                                </div>
+                            </div>
+                            <div class="bag-product-action">
+                                <a class="btn-lg" data-toggle="modal" data-target="#cart-store" href="#buy-now">MUA NGAY
+                                    <span>Giao hàng tận nơi hoặc nhận ở cửa hàng</span>
+                                </a>
+                                <!-- modal buy-now  -->
+                                <div class="modal fade" id="cart-store" role="dialog">
+                                    <div class="modal_content modal-lg modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <div class="modal-header1">
+                                                    <i class="fa fa-sticky-note" aria-hidden="true"></i>Bạn vừa thêm
+                                                    <span id="pro-name">Túi birkin ổ khóa Cabwer đỏ</span> vào giỏ<br>
+                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>Hiện đang có
+                                                    <span id="count-cart">3</span> sản phẩm trong giỏ hàng
+                                                </div>
+                                                <button type="button" class="close"
+                                                    data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form action="" method="post">
+                                                    <table id="cart-table">
+                                                        <tr class="tb-title">
+                                                            <th></th>
+                                                            <th>SẢN PHẨM</th>
+                                                            <th>ĐƠN GIÁ</th>
+                                                            <th>SỐ LƯỢNG</th>
+                                                            <th>THÀNH TIỀN</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><img src="https://product.hstatic.net/1000074340/product/opuy9ey4_small.jpg"
+                                                                    alt=""></td>
+                                                            <td>Túi bucket style Bohemian K&K - Default Title</td>
+                                                            <td class="p-price">500,000đ</td>
+                                                            <td>
+                                                                <div class="qty-count-item">
+                                                                    <input class="btn-div" type="button"
+                                                                        onclick="deins('ip1')" value="-">
+                                                                    <input type="text" name="quantity" class="q2"
+                                                                        id="ip1" value="1">
+                                                                    <input class="btn-plus" type="button"
+                                                                        onclick="ins('ip1')" value="+">
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-total">2,500,000đ</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><img src="https://product.hstatic.net/1000074340/product/opuy9ey4_small.jpg"
+                                                                    alt=""></td>
+                                                            <td>Túi bucket style Bohemian K&K - Default Title</td>
+                                                            <td>500,000đ</td>
+                                                            <td>
+                                                                <div class="qty-count-item">
+                                                                    <input class="btn-div" type="button"
+                                                                        onclick="deins('ip2')" value="-">
+                                                                    <input type="text" name="quantity" class="q2"
+                                                                        id="ip2" value="1">
+                                                                    <input class="btn-plus" type="button"
+                                                                        onclick="ins('ip2')" value="+">
+                                                                </div>
+                                                            </td>
+                                                            <td>2,500,000đ</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><img src="https://product.hstatic.net/1000074340/product/opuy9ey4_small.jpg"
+                                                                    alt=""></td>
+                                                            <td>Túi bucket style Bohemian K&K - Default Title</td>
+                                                            <td>500,000đ</td>
+                                                            <td>
+                                                                <div class="qty-count-item">
+                                                                    <input class="btn-div" type="button"
+                                                                        onclick="deins('ip3')" value="-">
+                                                                    <input type="text" name="quantity" class="q2"
+                                                                        id="ip3" value="1">
+                                                                    <input class="btn-plus" type="button"
+                                                                        onclick="ins('ip3')" value="+">
+                                                                </div>
+                                                            </td>
+                                                            <td>2,500,000đ</td>
+                                                        </tr>
+
+                                                    </table>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <div class="total-price">
+                                                    <div class="total-left">
+
+                                                        <span><i class="fa fa-truck"
+                                                                style="color: #ff551f;font-size: 16px;"
+                                                                aria-hidden="true"></i> Giao hàng trên toàn quốc</span>
+                                                        <a style="color: #ff551f; display: inline; font-size: 14px; padding: 0; margin-top: 14px; display: block;"
+                                                            href="product.html"><i class="fa fa-caret-right"
+                                                                aria-hidden="true"></i> Tiếp tục mua hàng</a>
+                                                    </div>
+                                                    <div class="total-right">
+                                                        Tổng cộng : <span id="total-price-product"
+                                                            style="color: #d61c1f;"><strong>4,000,000đ</strong><br
+                                                                style="padding-bottom:14"></span>
+                                                        <button style="margin-top: 14px;" class="buy-all">THANH
+                                                            TOÁN</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12 second-col">
+                            <div class="bag-service-heading">
+                                <h5>SẼ CÓ TẠI NHÀ BẠN</h5>
+                                <span>từ 1-5 ngày làm việc</span>
+                            </div>
+                            <div class="bag-service-body">
+                                <a style="text-decoration: none; color: rgba(0, 0, 0, 0.89);" class="service-item"
+                                    href="">
+                                    <div class="si-left">
+                                        <img src="https://theme.hstatic.net/1000074340/1000538604/14/pd_policies_1.png?v=30"
+                                            alt="">
+                                    </div>
+                                    <div class="si-right">
+                                        <p class="rp1">MIỄN PHÍ VẬN CHUYỂN</p>
+                                        <p class="rp2">Trên toàn quốc</p>
+                                    </div>
+                                </a>
+                                <a style="text-decoration: none; color: rgba(0, 0, 0, 0.89);" class="service-item"
+                                    href="">
+                                    <div class="si-left">
+                                        <img src="https://theme.hstatic.net/1000074340/1000538604/14/pd_policies_2.png?v=30"
+                                            alt="">
+                                    </div>
+                                    <div class="si-right">
+                                        <p class="rp1">ĐỔI TRẢ MIỄN PHÍ</p>
+                                        <p class="rp2">Đổi trả miễn phí 7 ngày</p>
+                                    </div>
+                                </a>
+                                <a style="text-decoration: none; color: rgba(0, 0, 0, 0.89);" class="service-item"
+                                    href="">
+                                    <div class="si-left">
+                                        <img src="https://theme.hstatic.net/1000074340/1000538604/14/pd_policies_3.png?v=30"
+                                            alt="">
+                                    </div>
+                                    <div class="si-right">
+                                        <p class="rp1">THANH TOÁN</p>
+                                        <p class="rp2">Thanh toán khi nhận hàng</p>
+                                    </div>
+                                </a>
+                                <a style="text-decoration: none; color: rgba(0, 0, 0, 0.89);" class="service-item"
+                                    href="">
+                                    <div class="si-left">
+                                        <img src="https://theme.hstatic.net/1000074340/1000538604/14/pd_policies_4.png?v=30"
+                                            alt="">
+                                    </div>
+                                    <div class="si-right">
+                                        <p class="rp1">HỖ TRỢ MUA NHANH</p>
+                                        <strong style="    color: #d61c1f; font-size: 18px;">1800 xxxx</strong>
+                                        <p class="rp2">Từ 8:30 - 21:30 mỗi ngày</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9 col-12">
+                            <div class="product-col-content">
+                                <div class="pro-description">
+                                    <ul class="pro-des">
+                                        <li class="ulli isActived">
+                                            <a href="#tab-chi-tiet" class="tpd">CHI TIẾT SẢN PHẨM</a>
+
+                                        </li>
+                                        <li id="modal-btn" class="btn modal-btn btn-info btn-lg" data-toggle="modal"
+                                            data-target="#myModal">
+                                            <a href="#tab-huong-dan" class="tpd">HƯỚNG DẪN BẢO QUẢN</a>
+                                        </li>
+                                        <li class="ulli">
+                                            <a href="#tab-binh-luan" class="tpd">BÌNH LUẬN / ĐÁNH GIÁ</a>
+                                        </li>
+                                        <li class="ulli">
+                                            <a href="#tab-chinh-sach" class="tpd">CHÍNH SÁCH ĐỔI TRẢ</a>
+                                        </li>
+                                    </ul>
+                                    <div class="pro-detail">
+                                        <div class="divHint">
+                                            <p>
+                                                Phong cách Âu Mỹ đơn giản không làm mất đi vẻ thanh lịch quyến rũ của
+                                                người
+                                                phụ nữ, túi Shoulder Bag móc treo rua rua DFJL chất liệu da PU cao cấp,
+                                                thiết kế tiện dụng thích hợp sử dụng khi đi làm, đi chơi hay shopping sẽ
+                                                là
+                                                xu hướng hót nhất xuân hè này <br>
+                                                - Túi Shoulder Bag móc treo rua rua DFJL phong cách Âu Mỹ đơn giản không
+                                                làm
+                                                mất đi vẻ thanh lịch quyến rũ của người phụ nữ thích hợp sử dụng khi đi
+                                                làm,
+                                                đi chơi hay shopping sẽ là xu hướng hót nhất xuân hè này. <br>
+                                                - Chất liệu PU cao cấp rất mềm, bề mặt bóng sáng, vân da nổi rõ kết hợp
+                                                cùng
+                                                công nghệ may hiện đại đem đến cho khách hàng sản phẩm hoàn hảo cao cấp.
+                                                <br>
+                                                - Móc treo da tua rua có thể tháo rời tạo điểm nhấn cho chiếc túi. <br>
+                                                - Dây đeo khóa bấm có thể tháo rời; dây đeo dài được trang bị thêm cho
+                                                bạn
+                                                sử dụng theo những phong cách khác nhau.
+                                            </p>
+                                        </div>
+                                        <div class="modal fade" id="myModal" role="dialog">
+                                            <div class="modal-dialog">
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 style="font-size: 16px; font-weight: bold;"
+                                                            class="modal-title">
+                                                            Hướng dẫn bảo quản</h4>
+                                                        <button type="button" class="close"
+                                                            data-dismiss="modal">&times;</button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p
+                                                            style="font-size: 14px; margin: 0 0 14px 0; font-weight: lighter;">
+                                                            Hướng dẫn bảo quản sản phẩm.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- comment  -->
+                                        <div class="divHint">
+                                            <p>
+
+                                            </p>
+                                        </div>
+                                        <div class="divHint">
+                                            <p>EGA TheBags sẽ thực hiện việc đổi/trả hàng và hoàn tiền cho khách hàng
+                                                trong
+                                                những trường hợp sau.</p>
+                                            <p><strong>Sản phẩm EGA TheBags giao không đúng đơn đặt hàng</strong><br>
+                                                Bạn
+                                                nghĩ rằng sản phẩm giao cho bạn không đúng với đơn đặt hàng? Hãy liên hệ
+                                                với
+                                                chúng tôi càng sớm càng tốt, hệ thống của chúng tôi sẽ kiểm tra nếu hàng
+                                                của
+                                                bạn bị gửi nhầm. Trong trường hợp đó, chúng tôi sẽ thay thế đúng mặt
+                                                hàng
+                                                bạn yêu cầu (khi có hàng).</p>
+                                            <p><strong>Sản phẩm mua rồi nhưng không ưng ý</strong><br> Người mua có thể
+                                                trả
+                                                hàng khi không vừa ý trong vòng 7 ngày kể từ ngày nhận hàng, EGA
+                                                TheBags.vn
+                                                sẽ đổi sản phẩm cho khách. Sản phẩm muốn đổi hoặc trả yêu cầu phải là
+                                                sản
+                                                phẩm không có dấu hiệu đã qua sử dụng và còn nguyên tem, mác, nguyên đai
+                                                kiện ban đầu</p>
+                                            <p><strong>Sản phẩm mua bị lỗi</strong><br> Quý khách vui lòng kiểm tra sản
+                                                phẩm
+                                                trước khi thanh toán. Trong trường hợp sản phẩm bị hư hại trong quá
+                                                trình
+                                                vận chuyển, quý khách vui lòng từ chối và gửi lại sản phẩm cho EGA
+                                                TheBags.vn. Đồng thời thông báo cho Trung tâm hỗ trợ khách hàng
+                                                0123456789,
+                                                EGA TheBags.vn sẽ gửi cho quý khách mặt hàng thay thế.</p>
+                                            <p><strong>Điều kiện đổi trả hàng</strong></p>
+                                            <p>Điều kiện về thời gian đổi trả: trong vòng 7 ngày kể từ khi nhận được
+                                                hàng.
+                                            </p>
+                                            <p>Điều kiện về sản phẩm:</p>
+                                            <p>- Hàng hóa còn đầy đủ các bộ phận, không có dấu hiệu sử dụng quá nhiều
+                                                hoặc
+                                                hỏng hóc.</p>
+                                            <p>- Có đầy đủ các giấy tờ kèm theo (hóa đơn mua hàng, catalogue...) và các
+                                                linh
+                                                kiện, tặng phẩm kèm theo (nếu có).</p>
+                                            <p>- Khách hàng chịu chi phí vận chuyển cho việc đổi, trả hàng.</p>
+                                            <p>- Trường hợp không đủ các điều kiện trên thì quyền quyết định đổi, trả
+                                                hàng
+                                                thuộc về EGA TheBags.vn</p>
+                                            <p>&nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 hidden-xs hidden-sm hidden-md" id="col-move">
+                            <h4 style="font-size:16px; font-weight: bold;">Túi birkin ổ khóa Cabwer đỏ</h4>
+                            <p>SKU: 8594568</p>
+                            <ins class="price-ins">700,000₫</ins>
+                            <a class="btn btn-lg buy-now" data-toggle="modal" data-target="#cart-store"
+                                href="#tab-gio-hang">MUA NGAY</a>
+                            <a style="text-decoration: none; color: rgba(0, 0, 0, 0.89);border: none;"
+                                class="service-item" href="">
+                                <div class="si-left">
+                                    <img src="https://theme.hstatic.net/1000074340/1000538604/14/pd_policies_4.png?v=30"
+                                        alt="">
+                                </div>
+                                <div class="si-right">
+                                    <p class="rp1">Hỗ trợ mua nhanh</p>
+                                    <strong style="    color: #d61c1f; font-size: 18px;">1800 xxxx</strong>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pro_recentview">
+            <div class="recent-view">
+                <h3 class="recent-view_title">Sản phẩm đã xem</h3>
+                <div class="recent-view_wrap" id="product-recentview">
+                    <div>
+                        <a class="recent-view_item" href="chi-tiet-sp.html"
+                            title="Túi tote khóa xoay Kamicy">
+                            <img src="https://product.hstatic.net/1000074340/product/x3oqzfgz_thumb.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="recent-view__item"
+                            href="chi-tiet-sp.html"
+                            title="Wristlet cầm tay khóa gài chữ O Gesunry xanh lam">
+                            <img src="https://product.hstatic.net/1000074340/product/rxcqlip1_thumb.jpg">
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <a class="recent-view_item" href="chi-tiet-sp.html"
+                            title="Túi tote khóa xoay Kamicy">
+                            <img src="https://product.hstatic.net/1000074340/product/x3oqzfgz_thumb.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="recent-view__item"
+                            href="chi-tiet-sp.html"
+                            title="Wristlet cầm tay khóa gài chữ O Gesunry xanh lam">
+                            <img src="https://product.hstatic.net/1000074340/product/rxcqlip1_thumb.jpg">
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <a class="recent-view_item" href="chi-tiet-sp.html"
+                            title="Túi tote khóa xoay Kamicy">
+                            <img src="https://product.hstatic.net/1000074340/product/x3oqzfgz_thumb.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="recent-view__item"
+                            href="chi-tiet-sp.html"
+                            title="Wristlet cầm tay khóa gài chữ O Gesunry xanh lam">
+                            <img src="https://product.hstatic.net/1000074340/product/rxcqlip1_thumb.jpg">
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start footer  -->
+    <div class="container">
+        <div class="under2">
+            <div class="row">
+                <div class="col_left col-lg-8 col-md-6 col-12">
+                    <form action="#" method="">
+                        <div class="row">
+                            <div class="col_left1 col-lg-5 hidden-xs hidden-md hidden-md">
+                                <strong>
+                                    ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI
+                                </strong>
+                            </div>
+                            <div class="col_left2 col-lg-7 col-12">
+                                <input id="mail" type="text" placeholder="Nhập email của bạn">
+                                <button href="#" type="submit" class="btn btn-primary btn_sub">
+                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col_right col-lg-4 col-md-6 col-12">
+                    <div class="r1 facebook"><a href="#abc" class="fa fa-facebook" aria-hidden="true"></a></div>
+                    <div class="r1 twitter"><a href="#abc" class="fa fa-twitter" aria-hidden="true"></a></div>
+                    <div class="r1 google"><a href="#abc" class="fa fa-google-plus" aria-hidden="true"></a></div>
+                    <div class="r1 youtube"><a href="#abc" class="fa fa-youtube" aria-hidden="true"></a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="prefooter row">
+                <div class="cx col-sm-12 col-xs-12 ">
+                    <a href="#abc" alt="">
+                        <img src="https://theme.hstatic.net/1000074340/1000538604/14/footer_logo.png?v=30">
+                    </a>
+                    <p>Túi xách - Phụ kiện không thể thiếu của phái đẹp</p>
+                </div>
+                <div class="cx col-sm-12 col-xs-12">
+                    <h4>Liên hệ</h4>
+                    <p>Kênh mua sắm trực tuyến giá tốt hàng đầu Việt Nam</p>
+                    <span>61/2 Quang Trung, P.10 Q. Gò Vấp, TP. HCM</span>
+                    <a href="#abc" class="phone">(91) 8547 632521</a>
+                    <a href="#abc" class="mail">hello@egany.com</a>
+                </div>
+                <div class="cx col-sm-12 col-xs-12">
+                    <h4>Giới thiệu</h4>
+                    <ul class="pf">
+                        <li><a href="product.html">Sản phẩm </a></li>
+                        <li><a href="tui-nu-xach-tay.html">Túi xách tay</a> </li>
+                        <li><a href="tui-xach-cam-tay.html">Túi cầm tay</a> </li>
+                        <li><a href="empty.html">Túi kamicy</a> </li>
+                        <li><a href="tap-chi.html">Tạp chí</a> </li>
+                        <li><a href="he-thong-cua-hang.html">Hệ thống cửa hàng</a> </li>
+                    </ul>
+                </div>
+                <div class="cx col-sm-12 col-xs-12">
+                    <h4>Hướng dẫn</h4>
+                    <ul class="pf">
+                        <li><a href="gioi-thieu.html">Câu hỏi thường gặp</a></li>
+                        <li><a href="hd-tinh-size.html">Hướng dẫn cách tính size</a> </li>
+                        <li><a href="chinh-sach.html">Chính sách đổi trả</a> </li>
+                        <li><a href="hd-bao-quan.html">Hướng dẫn bảo quản</a> </li>
+                        <li><a href="hd-thanh-toan.html">Hướng dẫn thanh toán</a> </li>
+                        <li><a href="hd-mua-hang.html">Hướng dẫn mua hàng</a> </li>
+                    </ul>
+                </div>
+                <div class="cx col-sm-12 col-xs-12">
+                    <h4>Chứng nhận</h4>
+                    <img src="https://theme.hstatic.net/1000074340/1000538604/14/payment_img.png?v=30" alt="">
+                    <img src="https://theme.hstatic.net/1000074340/1000538604/14/register_img.png?v=30" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <div class="container cp">
+                <div class="row">
+                    <div class="col-md-6 cprow" style="font-size: 14px;">
+                        © Bản quyền thuộc về <a href="https://egany.com/">EGANY</a> . <a
+                            href="https://www.haravan.com/">Powered by Haravan</a>
+                        <div style="margin: 13px 0; font-size: 13px;">
+                            <a href="">Tìm kiếm </a>/ <a href="gioi-thieu.html">Giới
+                                thiệu</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 cprow" style="text-align: right; padding:0 8px 0 10px;">
+                        EGANY Co.Ltd - 12345 Quang Trung, Q. Gò Vấp, Tp.HCM | Email:
+                        <a href=""> hello@egany.com </a>|
+                        Hotline: <a href="">1900.123.789</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer  -->
+
+    <nav class="menu-mobile">
+        <ul class="ul-mb">
+            <li class="menu__item mb-hotline">
+                <a class="menu__link" href="tel:0987654321">
+                    <div class="fa fa-phone"></div>
+                    <span>Gọi ngay</span>
+                </a>
+            </li>
+
+            <li class="menu__item mb-sms">
+                <a class="menu__link" href="sms:0987654321">
+                    <div class="fa fa-comment"></div>
+                    <span>SMS</span>
+                </a>
+            </li>
+            <li class="menu__item mb-facebook">
+                <a class="menu__link" href="https://m.me/EGAnyCom">
+                    <div class="fa fa-facebook"></div>
+                    <span>Live chat</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- backtotop -->
+    <div id="back-to-top" onclick="topFunction()"></div>
+
+    <script>
+        window.onscroll = function () { myFunction(); scrollFunction() };
+        var header = document.getElementById("sticky_top");
+        var sticky = header.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        };
+        var mobileMN = document.getElementById("menu-mb");
+        window.onresize = function () {
+            var st = screen.height + "px";
+            mobileMN.style.height = st;
+        }
+
+        document.querySelectorAll(".top-cart-mb .btn-cart")[0].addEventListener('click', function () {
+            document.querySelectorAll(".top-link")[0].classList.toggle("showed");
+        });
+        var childToggle = document.querySelectorAll("#menu-mb .menu-tree-mb .has-child span");
+        var childMenu = document.querySelectorAll("#menu-mb .menu-tree-mb .has-child ul");
+        var arrToggle = Array.prototype.slice.call(childToggle);
+        console.log(childToggle.length + " " + childMenu.length);
+        for (var i of childToggle) {
+            i.addEventListener('click', function () {
+                childMenu[arrToggle.indexOf(this)].classList.toggle("showed");
+                var text = childToggle[arrToggle.indexOf(this)];
+                if (text.innerHTML == "+") {
+                    text.innerHTML = "-";
+                }
+                else {
+                    text.innerHTML = "+";
+                }
+            })
+        }
+        function LtoR() {
+            document.getElementById("menu-mb").classList.toggle("toggle-show");
+            var i = document.getElementsByClassName("overplay")[0];
+            i.classList.toggle("showed");
+            i.addEventListener('click', function () {
+                document.getElementById("menu-mb").classList.remove("toggle-show");
+                this.classList.remove("showed");
+            })
+        }
+        mybutton = document.getElementById("back-to-top");
+        function scrollFunction() {
+            if (document.body.scrollTop > 720 || document.documentElement.scrollTop > 720) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        };
+
+    </script>
+
+    <script src="js/chi-tiet-sp.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+@media(min-width:1200px) {
+    .top_bar2 .top_mb {
+        display: none;
+    }
+
+    .overplay {
+        display: none;
+    }
+}
+
+@media(min-width:992px) {
+    .menu-mobile {
+        display: none;
+    }
+    
+
+}
+
+@media(min-width:768px) {
+    .cx.col-sm-12 {
+        max-width: 20%;
+    }
+
+    .new5-item.col-sm-12 {
+        max-width: 20%;
+    }
+}
+
+@media(max-width:1199px) {
+    .top_d {
+        display: none;
+    }
+
+    .top_bar2 {
+        padding: 0;
+    }
+
+    .logo {
+        padding: 5px;
+    }
+
+    .top_bar2 .logo img {
+        height: 55px;
+        ;
+    }
+
+
+}
+
+@media(max-width:991px) {
+    .top_bar1 {
+        display: none;
+    }
+
+    .col_left1 {
+        display: none;
+    }
+
+    .copyright {
+        margin-bottom: 60px;
+    }
+
+    .main-collection .col-filter {
+        position: fixed;
+        width: 275px;
+        top: 0;
+        bottom: 0;
+        right: -280px;
+        background: white;
+        z-index: 9;
+        padding: 10px;
+        overflow-y: auto;
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        box-shadow: -2px 0px 11px -1px rgba(0, 0, 0, 0.25);
+    }
+    .main-collection #collection_sidebar_trigger{
+        display: block !important;
+    }
+    #col-move{
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    .copyright .cprow {
+        text-align: center !important;
+    }
+
+    .col_left1 {
+        display: block;
+    }
+
+    .col_right {
+        justify-content: center !important;
+    }
+    .row.r-main{
+        display: none;
+    }
+    .row.rr{
+        flex-direction: row-reverse;
+    }
+    .row .col-cart-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .col-cart-info .cart-span-img{
+        grid-row: span 3;
+    }
+    .hidden-sm{
+        display: none;
+    }
+}
+
+@media(max-width:575px) {
+    ._col1 {
+        padding-bottom: 15px !important;
+    }
+
+    .col_left1 {
+        display: none;
+    }
+    .hidden-xs{
+        display: none;
+    }
+}

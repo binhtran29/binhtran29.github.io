@@ -1,0 +1,140 @@
+.content-clear-fix{
+    color: #333333;
+    font-size: 14px;
+}
+
+.content img{
+    width: 100%;
+}
+.news-slide #mySlide img{
+    height: 700px;
+    object-fit: cover;
+}
+.top-post-title{
+    font-size: 21px;
+    padding: 0 0 5px 0;
+    margin: 0 0 14px 0;
+    text-align: center;
+    border-bottom:2px solid #333333;
+    font-weight: lighter;
+}
+
+.list-top{
+    width: 100%;
+}
+.top-item{
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.top-item .item-left{
+    width: 135px;
+    height: 80px;
+    margin: 0 14px 0 0 ;
+}
+.top-item .top-right{
+    width: 296px;
+}
+
+.top-right h5{
+    font-size: 18px;
+}
+.top-right a{
+    color: #333333;
+    text-decoration: none;
+}
+.top-right span{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.blog-news{
+    width: 100%;
+}
+.blog-news .row .col-md-12 h3.blog-new-title{
+    text-align: center;
+    margin:14px 0 20px 0;
+    font-size: 24px;
+    font-weight: bolder;
+    position: relative;
+}
+.blog-news .row .col-md-12 h3.blog-new-title a{
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    padding: 0 5px;
+}
+h3.blog-new-title:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #333333;
+    top: 15px;
+    left: 0;
+}
+h3.blog-new-title:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.5px;
+    background: #333333;
+    top: 19px;
+    left: 0;
+}
+
+
+
+.new5-item img{
+    overflow: hidden;
+    height: 305px;
+    object-fit: cover;
+}
+.new5-item a{
+    text-decoration: none;
+    color: #333333;
+}
+.new5-item h4{
+    margin: 14px 0 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.new5-item p{
+    align-items: flex-end;
+}
+
+.life{
+}
+.life a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+}
+.life img{
+    overflow: hidden;
+    height: 305px;
+    object-fit: cover;
+}
+.life .media {
+    overflow: hidden;
+    display: flex;
+}
+.media .media-col-left{
+    width: 135px;
+    margin-right: 14px;
+}
+.media-col-left img{
+    width: 135px;
+    height: 100px;
+    object-position: top;
+}
+
+.megazine-collection{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #000000;
+    color: #ffffff;
+}

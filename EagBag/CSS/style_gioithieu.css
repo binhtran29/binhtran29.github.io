@@ -1,0 +1,22 @@
+
+.content a{
+    text-decoration: none;
+    color: #333;
+}
+
+.content .main-ct p{
+    font-size: 14px;
+    margin: 14px 0;
+}
+
+.content .main-ct ul{
+    padding-left: 40px;
+    margin: 0;
+}
+
+.content .main-ct ul li{
+    font-size: 14px;
+}
+.content .main-ct p a{
+    color: #ff551f;
+}

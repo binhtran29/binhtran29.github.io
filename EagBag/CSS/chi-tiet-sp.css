@@ -1,0 +1,335 @@
+.bag-product-detail .row .first-col{
+    position: relative;
+}
+.bag-product-detail .row .first-col img{
+    width: 100%;
+}
+.first-col .sales{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 70px;
+    height: 30px;
+    background-color: #ff551f;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+.slide_trade {
+}
+.slide_trade .item_slide{
+}
+.slide_trade .item_slide img{
+    border: 1px #ccc solid;
+}
+.second-col {
+    margin: 14px 0 0 0;
+}
+.second-col h1.bag-product-title{
+    font-size: 16px;
+    font-weight: 900;
+}
+.second-col p.bag-product-id{
+    font-size: 11px;
+    color: rgba(51, 51, 51, 0.705);
+    margin: 0 0 5px 0;
+}
+.price-ins{
+    font-size: 25px;
+    text-decoration: none !important;
+    color: rgba(245, 20, 20, 0.801);
+}
+.second-col .bag-product-price .price-del{
+    font-size: 12.5px;
+    color: rgba(51, 51, 51, 0.705) ;
+}
+
+.second-col .bag-product-qty{
+    display: flex;
+}
+.bag-product-qty .qty-title{
+    font-size: 12.5px;
+    font-weight: bolder;
+    margin: 0 10px 0 0;
+    padding: 5px 0 0 0;
+}
+
+.bag-product-qty .qty-count{
+    position: relative;
+    margin: 0 0 14px 0;
+}
+.qty-count .btn-div, .qty-count .btn-plus{
+    width: 18px;
+    height: 14px;
+    position: absolute;
+    right: 0px;
+    font-size: 10px;
+    line-height: 0;
+    border: 1px solid #5555559c;
+    outline: none;
+    border-radius: 0;
+}
+.qty-count .btn-plus{
+    top: 0;;
+}
+.qty-count .btn-div{
+    bottom: 0;
+}
+.qty-count #q{
+    width: 70px;
+    height: 28px;
+    text-align: center;
+    outline: none;
+    padding: 1px 14px 2px 1px;
+    border: 1px solid #55555594;
+    border-radius: 0;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.733);
+}
+
+.bag-product-action{
+    width: 100%;
+    text-align: center;
+    background-color: #d61c1f;
+}
+.bag-product-action a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+    margin: 7px 7px 21px 0 ;
+    padding: 12px 28px;
+}
+.bag-product-action a span{
+    display: block;
+    margin-top: 8px;
+    letter-spacing: 0;
+    font-size: 12px;
+}
+/* modal buy-now  */
+.bag-product-action .modal {
+}
+.bag-product-action .modal_content{
+    max-width: 900px;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    margin: 1.75rem auto;
+    border-radius: .2rem;
+}
+.bag-product-action .modal-dialog .modal-header1{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+
+#cart-store .modal-dialog .modal-header{
+    border: none;
+}
+
+.modal-header1 i, .modal-header1 span{
+    color: #ff551f;
+}
+.modal-header1 i{
+    padding: 0 5px 0 0;
+}
+.modal-header .close{
+    padding: 0;
+}
+button.close, button.close:hover{
+    outline: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    position: relative;
+    opacity: 1;
+    top: -15px;
+    right: -15px;
+    background: black;
+    color: white;
+    font-size: 16px;
+}
+.bag-product-action .modal-footer .total-price{
+    width: 100%;
+    display: flex;
+}
+.total-price .total-left{
+    width: 50%;
+    text-align: left;
+}
+.total-price .total-right{
+    width: 50%;
+    text-align: right;
+}
+.total-price .total-right button.buy-all{
+    background-color: #ff551f;
+    color: white;
+    padding: 8px 21px;
+    border-radius: 9999px;
+    border: 1px solid transparent;
+}
+
+#cart-table{
+    width: 100%;
+}
+#cart-table .tb-title{
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    background-color: #f7f7f7;
+}
+#cart-table .tb-title th{
+    padding: 10.5px 0;
+    font-size: 13px;
+    text-align: left;
+    font-weight: bold;
+}
+#cart-table td{
+    text-align: left;
+    font-size: 14px;
+}
+
+.qty-count-item{
+    display: flex;
+}
+.qty-count-item .btn-div, .qty-count-item .btn-plus{
+    width: 34px;
+    border-radius: 0;
+    outline: none;
+    background-color: white;
+    border: 1px solid #555555;
+    height: 30px;
+}
+.qty-count-item .btn-div:hover, .qty-count-item .btn-plus:hover{
+   background-color: #adafc6;
+   color: white;
+}
+.qty-count-item .q2{
+    width: 54px;
+    height: 30px;
+    text-align: center;
+    border-radius: none;
+    outline: none;
+    border: 1px solid #555555;
+}
+
+.bag-product-action .modal-footer{
+    font-size: 14px;
+}
+
+
+.second-col .bag-service-heading{
+    background-color: #eaeaea;
+    padding: 7px;
+    margin-bottom: 7px;
+}
+
+.bag-service-heading h5{
+    font-size: 12.6px;
+    font-weight: bold;
+    color: #288f06;
+    margin-bottom: 3.5px;
+}
+.bag-service-heading span{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #333333c2;
+}
+
+.service-item{
+    display: flex;
+    padding: 7px 0 7px 0;
+    border-bottom: 1px solid #eee;
+}
+.service-item .si-left{
+    margin-right: 14px;
+}
+.service-item .si-right .rp1{
+    margin: 0;
+    font-size: 14px; 
+    font-weight: bolder;
+}
+.service-item .si-right .rp2{
+    margin: 0;
+    font-size: 12.6px;
+    font-weight: lighter;
+    color: #333333c2;
+}
+
+.pro-description {
+    border: 1px solid #ebebeb;
+}
+.pro-description ul.pro-des {
+    list-style: none;
+    border-top: 3px solid #ff551f;
+    background-color: #ebebeb;
+    margin: 0;
+}
+
+ul.pro-des li{
+    display: inline-block;
+    font-size: 12.6px;
+}
+
+ul.pro-des li a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8.4px 14px;
+}
+
+.pro-description .pro-detail{
+    padding: 16px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #555555;
+}
+
+.disNone{
+    display: none;
+}
+
+.isActived{
+    display: inline-block;
+    background-color: white;
+}
+.divHint strong{
+    font-weight: bold;
+}
+
+#modal-btn{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.buy-now, .buy-now:hover{
+    display: block;
+    padding: 8.4px 14px;
+    background: #d61c1f;
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+    
+}
+
+.recent-view .recent-view_title{
+    font-size: 17.5px;
+    font-weight: bold;
+    margin: 14px 0;
+}
+.recent-view .recent-view_wrap{
+    background-color: #eaeaea;
+    padding: 7px;
+}
+.recent-view .recent-view_wrap>div{
+    display: inline-block !important;
+    padding-right: 7px;
+}

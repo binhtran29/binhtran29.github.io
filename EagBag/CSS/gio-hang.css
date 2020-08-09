@@ -1,0 +1,93 @@
+.content .container{
+    color: #555555;
+}
+
+.container p.cart-count{
+    font-size: 14px;
+}
+span.count-product{
+    color: #f4516c;
+}
+
+.cart-main .rr, .cart-main .r-main{
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.cart-main .rr{
+    padding: 20px 0;
+    
+}
+.cart-main .rr img{
+    max-width: 100% ;
+}
+.cart-main .row{
+    
+    display: flex;
+    flex-wrap: wrap;align-items: center;
+}
+
+.qty-count-item{
+    display: flex;
+    font-size: 15px;
+}
+.qty-count-item .btn-div, .qty-count-item .btn-plus{
+    width: 35px;
+    border-radius: 0;
+    outline: none;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    height: 35px;
+    
+}
+.qty-count-item .btn-div:hover, .qty-count-item .btn-plus:hover{
+   background-color: #adafc6;
+   color: white;
+}
+.qty-count-item .q2{
+    width: 51px;
+    height: 35px;
+    text-align: center;
+    border-radius: none;
+    outline: none;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: none;
+    border-right: none;
+}
+
+/* cart-footer */
+.cart-footer{
+    display: flex;
+    margin-top: 14px;
+    font-size: 14px;
+}
+.cart-footer .note{
+    width: 50%;
+}
+.note label{
+    display: block;
+}
+.note #note-area{
+    width: 100%;
+    border: 1px solid #eee;
+    vertical-align: top;
+    font-size: 1rem;
+    padding: .375rem .75rem;
+    font-size: 14px;
+    outline: none;
+}
+.cart-footer .total-money{
+    width: 50%;
+}
+
+.total-money .thanhtoan{
+    font-size: 14px;
+    padding: 8px 21px;
+    margin: 7px;
+    color: white;
+    text-decoration: none;
+    background-color: #ff551f !important;
+    border-radius: 3px;
+    float: right;
+}

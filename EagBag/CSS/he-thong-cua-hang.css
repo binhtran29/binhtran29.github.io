@@ -1,0 +1,19 @@
+.content-clear-fix{
+    color: #333333;
+    font-size: 14px;
+}
+
+ul.menu-tree{
+    list-style: none;
+    font-size: 14px;
+}
+
+ul.menu-tree li.tree-item{
+    padding: 5px 0;
+}
+
+li.tree-item a{
+    text-decoration: none;
+    color: #555555;
+}
+
